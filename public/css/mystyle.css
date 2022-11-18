@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@media screen and (max-width: 1600px) and (min-width: 701px) {
+  html {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #container {
+    background-image: url(../../img/Anime-Background.jpg);
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 95vw;
+    grid-auto-rows: 5vh 90vh 5vh;
+    overflow-y: scroll;
+  }
+
+  .nav {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #navLink {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+
+    color: rgb(246, 245, 245);
+    font-weight: normal;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+
+
+  }
+
+  #MyAnimeList {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #imdb {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+
+  #Crunchyroll {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+  }
+
+  #Reddit {
+    grid-column: 4 / span 1;
+    grid-row: 1;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .styled-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    justify-items: center;
+
+  }
+
+  h3 {
+    margin: 1em 0 0.5em 0;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 36px;
+    border: #bebdbd;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  }
+
+  #topAnimeHeader {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #animeHTML {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+  }
+
+  #myTopAnimeHeader {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+  }
+
+  #animeJSON {
+    grid-column: 1 /span 1;
+    grid-row: 4;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-table thead th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .styled-table tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .styled-table tr:nth-of-type(even) {
+    background-color: #bebdbd;
+  }
+
+  .styled-table tr:nth-of-type(odd) {
+    background-color: #f7f3f3;
+  }
+
+  .footer {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+
+    /* align-items: center; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #c34444;
+  }
+
+  #footerLink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  #Copyright {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #Careers {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #container {
+    background-image: url(../../img/Anime-Background.jpg);
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 95vw;
+    grid-auto-rows: 5vh 90vh 5vh;
+    overflow-y: scroll;
+  }
+
+  .nav {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #navLink {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+
+    color: rgb(246, 245, 245);
+    font-weight: normal;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+
+
+  }
+
+  #MyAnimeList {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #imdb {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+
+  #Crunchyroll {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+  }
+
+  #Reddit {
+    grid-column: 4 / span 1;
+    grid-row: 1;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .styled-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    justify-items: center;
+
+  }
+
+  h3 {
+    margin: 1em 0 0.5em 0;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 36px;
+    border: #bebdbd;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  }
+
+  #topAnimeHeader {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #animeHTML {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+  }
+
+  #myTopAnimeHeader {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+  }
+
+  #animeJSON {
+    grid-column: 1 /span 1;
+    grid-row: 4;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-table thead th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .styled-table tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .styled-table tr:nth-of-type(even) {
+    background-color: #bebdbd;
+  }
+
+  .styled-table tr:nth-of-type(odd) {
+    background-color: #f7f3f3;
+  }
+
+  .footer {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+
+    /* align-items: center; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #c34444;
+  }
+
+  #footerLink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  #Copyright {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  #Careers {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+}
+
